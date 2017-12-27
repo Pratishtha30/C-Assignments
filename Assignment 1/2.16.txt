@@ -1,0 +1,38 @@
+/***********************************************************************/
+/* University of California Extension, Santa Cruz */
+/* */
+/* C Programming For Beginners*/
+/* */
+/* Instructor: Bineet Sharma */
+/* */
+/* Author: Pratishtha Deep */
+/* */
+/* Assignment Number: 1-2.16 */
+/**/
+/* Objective:
+Write a program that asks the user to enter two numbers,
+obtain the two numbers from the user and the prints the sum,
+product, difference, quotient and remainder of the two numbers.
+*/
+/****************************************************/
+
+#include<stdio.h>
+
+int main()
+{
+
+ int num1, num2;/* Define Two numbers for input */
+
+ printf("Enter the two number separated by comma for calculations:");/* Prompt the user */
+
+ scanf("%d,%d", &num1, &num2); /* Read two integers */
+
+ //Output Results
+
+printf("The Sum is %d\n", num1 + num2);
+printf("The Product is %d\n", num1 * num2);
+printf("The Difference is %d\n", num1 - num2);
+printf("The Quotient is %d\n", num1 / num2);
+printf("The Remainder is %d\n", num1 % num2);
+
+}//end main

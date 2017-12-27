@@ -1,0 +1,44 @@
+/***********************************************************************/
+/* University of California Extension, Santa Cruz */
+/* */
+/* C Programming For Beginners*/
+/* */
+/* Instructor: Bineet Sharma */
+/* */
+/* Author: Pratishtha Deep */
+/* */
+/* Assignment Number: 1-2.26 */
+/**/
+/* Objective:
+Write a program that reads in two integers and determine
+and prints if the first is a multiple of the second.
+*/
+/****************************************************/
+
+#include<stdio.h>
+
+int main()
+{
+
+//define two numbers
+int num1, num2;
+
+//prompt user
+printf("Enter the two numbers separated by comma\n");
+//Read two integers
+scanf("%d,%d", &num1, &num2);
+
+//Using remainder operator to check number is multiple or not
+if(num1 % num2 == 0){
+
+printf("Number %d is multiple of Number %d\n", num1, num2);
+
+}
+
+if(num1 % num2 != 0){
+
+printf("Number %d is not a multiple of Number %d\n", num1, num2);
+
+}
+
+}//end main
