@@ -26,7 +26,7 @@ float x,y;//variables for two numbers given by user for calculation
 int flag;//assigning for scanf 
 char garb;//for garbage input check
 
-printf("What would you like to do\n");//Input by user for menu choice
+ printf("What would you like to do\n");//Input by user for menu choice
 flag = scanf("%d%c", &choice, &garb);
 //scanf returns number of successful translation. If user
 //inputs characters instead of numbers it will not return 1
@@ -50,7 +50,6 @@ while(choice>5||choice<1)
 printf("You have not entered a number between 1 and 5. re-enter: ");
 flag = scanf("%d%c", &choice, &garb);
 }
-
 
  switch(choice) {
 
